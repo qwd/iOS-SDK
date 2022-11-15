@@ -9,9 +9,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "QWeather"
   spec.version      = "4.9.1"
-  spec.summary      = "A short description of QWeather."
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "A short summary of QWeather."
+  spec.description  = "A description of QWeather."
   spec.homepage     = "https://github.com/qwd/iOS-SDK"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "韩笑白" => "hanxiaobai@qweather.com" }
