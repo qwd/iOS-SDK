@@ -16,12 +16,17 @@ Pod::Spec.new do |spec|
   spec.author             = { "韩笑白" => "hanxiaobai@qweather.com" }
   spec.ios.deployment_target = "9.0"
   spec.osx.deployment_target = "10.10"
-  spec.watchos.deployment_target = "2.0"
+  # spec.watchos.deployment_target = "2.0"
   spec.source       = { :git => "https://github.com/qwd/iOS-SDK.git", :tag => "#{spec.version}" }
   spec.ios.vendored_frameworks = "QWeather.xcframework"
   spec.osx.vendored_frameworks = "QWeather.xcframework"
-  spec.watchos.vendored_frameworks = "QWeather.xcframework"
-  spec.dependency 'AFNetworking'
+  # spec.watchos.vendored_frameworks = "QWeather.xcframework"
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
-  spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+  spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES'}
+  spec.ios.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather' }
+  spec.osx.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather' }
+  # spec.watchos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather-watchOS' }
+  spec.ios.dependency 'AFNetworking'
+  spec.osx.dependency 'AFNetworking'
+  # spec.watchos.dependency 'AFNetworking'
 end
