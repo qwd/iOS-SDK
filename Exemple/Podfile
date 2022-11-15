@@ -1,0 +1,21 @@
+
+def share_pods
+ pod 'QWeather', :path => '../../QWeather'
+end 
+
+target 'Exemple-iOS' do
+  platform :ios, '9.0'
+  share_pods
+end
+
+target 'Exemple-macOS' do
+  platform :osx, '10.10'
+  share_pods
+end
+
+target 'Exemple-watchOS Watch App' do
+  platform :watchos, '2.0'
+  share_pods
+end
+
+
