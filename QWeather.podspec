@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "QWeather.xcframework"
   spec.osx.vendored_frameworks = "QWeather.xcframework"
   spec.watchos.vendored_frameworks = "QWeather.xcframework"
+  spec.dependency 'AFNetworking'
   spec.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 end
