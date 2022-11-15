@@ -1,6 +1,6 @@
 
 def share_pods
- pod 'QWeather', :path => '../../QWeather'
+ pod 'QWeather', :path => '../'
 end 
 
 target 'Exemple-iOS' do
