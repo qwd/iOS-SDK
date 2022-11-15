@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
   spec.homepage     = "https://github.com/qwd/iOS-SDK"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "韩笑白" => "hanxiaobai@qweather.com" }
   spec.ios.deployment_target = "9.0"
   spec.osx.deployment_target = "10.10"
