@@ -2,11 +2,11 @@
 //  AppDelegate.m
 //  Exemple-macOS
 //
-//  Created by hxb on 2022/11/14.
+//  Created by LESLIEHAN on 2022/11/22.
 //
 
 #import "AppDelegate.h"
-
+#import <QWeather/QWeather.h>
 @interface AppDelegate ()
 
 

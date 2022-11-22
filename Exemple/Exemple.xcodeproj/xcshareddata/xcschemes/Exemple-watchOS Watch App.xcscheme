@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1BCF6412922458D00B5792F"
-               BuildableName = "Exemple-watchOS Watch App.app"
-               BlueprintName = "Exemple-watchOS Watch App"
+               BlueprintIdentifier = "029FA9DE292C726A0032461E"
+               BuildableName = "Exemple-watchOS.app"
+               BlueprintName = "Exemple-watchOS"
                ReferencedContainer = "container:Exemple.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1BCF6412922458D00B5792F"
-            BuildableName = "Exemple-watchOS Watch App.app"
-            BlueprintName = "Exemple-watchOS Watch App"
+            BlueprintIdentifier = "029FA9DE292C726A0032461E"
+            BuildableName = "Exemple-watchOS.app"
+            BlueprintName = "Exemple-watchOS"
             ReferencedContainer = "container:Exemple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1BCF6412922458D00B5792F"
-            BuildableName = "Exemple-watchOS Watch App.app"
-            BlueprintName = "Exemple-watchOS Watch App"
+            BlueprintIdentifier = "029FA9DE292C726A0032461E"
+            BuildableName = "Exemple-watchOS.app"
+            BlueprintName = "Exemple-watchOS"
             ReferencedContainer = "container:Exemple.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -2,7 +2,7 @@
 //  ViewController.h
 //  Exemple-macOS
 //
-//  Created by hxb on 2022/11/14.
+//  Created by LESLIEHAN on 2022/11/22.
 //
 
 #import <Cocoa/Cocoa.h>

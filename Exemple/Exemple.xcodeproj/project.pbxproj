@@ -7,218 +7,205 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0206AB8229237A3700A42F52 /* QWeather.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; };
-		0206AB8329237A3700A42F52 /* QWeather.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0206AB8529237A3E00A42F52 /* QWeather.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; };
-		0206AB8629237A3E00A42F52 /* QWeather.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0206AB8829237A4400A42F52 /* QWeather.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; };
-		0206AB8929237A4400A42F52 /* QWeather.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0206AB8129237A3700A42F52 /* QWeather.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E1BCF5E7292244BB00B5792F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF5E6292244BB00B5792F /* AppDelegate.m */; };
-		E1BCF5EA292244BB00B5792F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF5E9292244BB00B5792F /* SceneDelegate.m */; };
-		E1BCF5ED292244BB00B5792F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF5EC292244BB00B5792F /* ViewController.m */; };
-		E1BCF5F0292244BB00B5792F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF5EE292244BB00B5792F /* Main.storyboard */; };
-		E1BCF5F2292244BC00B5792F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF5F1292244BC00B5792F /* Assets.xcassets */; };
-		E1BCF5F5292244BC00B5792F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF5F3292244BC00B5792F /* LaunchScreen.storyboard */; };
-		E1BCF5F8292244BC00B5792F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF5F7292244BC00B5792F /* main.m */; };
-		E1BCF61D2922453B00B5792F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF61C2922453B00B5792F /* AppDelegate.m */; };
-		E1BCF6202922453B00B5792F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF61F2922453B00B5792F /* ViewController.m */; };
-		E1BCF6222922453C00B5792F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF6212922453C00B5792F /* Assets.xcassets */; };
-		E1BCF6252922453C00B5792F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF6232922453C00B5792F /* Main.storyboard */; };
-		E1BCF6272922453C00B5792F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF6262922453C00B5792F /* main.m */; };
-		E1BCF6452922458D00B5792F /* Exemple_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF6442922458D00B5792F /* Exemple_watchOSApp.swift */; };
-		E1BCF6472922458D00B5792F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCF6462922458D00B5792F /* ContentView.swift */; };
-		E1BCF6492922458D00B5792F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF6482922458D00B5792F /* Assets.xcassets */; };
-		E1BCF64C2922458D00B5792F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BCF64B2922458D00B5792F /* Preview Assets.xcassets */; };
+		029FA9A7292C71F40032461E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9A6292C71F40032461E /* AppDelegate.m */; };
+		029FA9AA292C71F40032461E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9A9292C71F40032461E /* SceneDelegate.m */; };
+		029FA9AD292C71F40032461E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9AC292C71F40032461E /* ViewController.m */; };
+		029FA9B0292C71F40032461E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9AE292C71F40032461E /* Main.storyboard */; };
+		029FA9B2292C71F40032461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9B1292C71F40032461E /* Assets.xcassets */; };
+		029FA9B5292C71F40032461E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9B3292C71F40032461E /* LaunchScreen.storyboard */; };
+		029FA9B8292C71F40032461E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9B7292C71F40032461E /* main.m */; };
+		029FA9E2292C726A0032461E /* Exemple_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9E1292C726A0032461E /* Exemple_watchOSApp.swift */; };
+		029FA9E4292C726A0032461E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9E3292C726A0032461E /* ContentView.swift */; };
+		029FA9E6292C726A0032461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9E5292C726A0032461E /* Assets.xcassets */; };
+		029FA9E9292C726A0032461E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9E8292C726A0032461E /* Preview Assets.xcassets */; };
+		029FA9F6292C75430032461E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9F5292C75430032461E /* AppDelegate.m */; };
+		029FA9F9292C75430032461E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9F8292C75430032461E /* ViewController.m */; };
+		029FA9FB292C75440032461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9FA292C75440032461E /* Assets.xcassets */; };
+		029FA9FE292C75440032461E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9FC292C75440032461E /* Main.storyboard */; };
+		029FAA00292C75440032461E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9FF292C75440032461E /* main.m */; };
+		031918677B572F713A41498F /* libPods-Exemple-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA6CF13EC7FA16CCE047B43 /* libPods-Exemple-iOS.a */; };
+		1C0D8983B1E8B0CBF833EC41 /* libPods-Exemple-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E33CA99CF03673A0A6C456 /* libPods-Exemple-macOS.a */; };
+		B2F8E557EF0BB808F9E359DA /* libPods-Exemple-watchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E7C96EE25869715C693DEC /* libPods-Exemple-watchOS.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0206AB8429237A3800A42F52 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0206AB8329237A3700A42F52 /* QWeather.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0206AB8729237A3E00A42F52 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0206AB8629237A3E00A42F52 /* QWeather.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0206AB8A29237A4400A42F52 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0206AB8929237A4400A42F52 /* QWeather.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		0206AB8129237A3700A42F52 /* QWeather.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = QWeather.xcframework; path = ../QWeather.xcframework; sourceTree = "<group>"; };
-		E1BCF5E2292244BB00B5792F /* Exemple-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1BCF5E5292244BB00B5792F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E1BCF5E6292244BB00B5792F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1BCF5E8292244BB00B5792F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E1BCF5E9292244BB00B5792F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E1BCF5EB292244BB00B5792F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1BCF5EC292244BB00B5792F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1BCF5EF292244BB00B5792F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1BCF5F1292244BC00B5792F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1BCF5F4292244BC00B5792F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E1BCF5F6292244BC00B5792F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1BCF5F7292244BC00B5792F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1BCF6192922453B00B5792F /* Exemple-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1BCF61B2922453B00B5792F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E1BCF61C2922453B00B5792F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E1BCF61E2922453B00B5792F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E1BCF61F2922453B00B5792F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E1BCF6212922453C00B5792F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1BCF6242922453C00B5792F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1BCF6262922453C00B5792F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1BCF6282922453C00B5792F /* Exemple_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Exemple_macOS.entitlements; sourceTree = "<group>"; };
-		E1BCF6422922458D00B5792F /* Exemple-watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1BCF6442922458D00B5792F /* Exemple_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemple_watchOSApp.swift; sourceTree = "<group>"; };
-		E1BCF6462922458D00B5792F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E1BCF6482922458D00B5792F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1BCF64B2922458D00B5792F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E1BCF65829224A6000B5792F /* Header-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Header-Bridge.h"; sourceTree = "<group>"; };
+		029FA9A2292C71F40032461E /* Exemple-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029FA9A5292C71F40032461E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		029FA9A6292C71F40032461E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029FA9A8292C71F40032461E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		029FA9A9292C71F40032461E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		029FA9AB292C71F40032461E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		029FA9AC292C71F40032461E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		029FA9AF292C71F40032461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029FA9B1292C71F40032461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029FA9B4292C71F40032461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		029FA9B6292C71F40032461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029FA9B7292C71F40032461E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		029FA9DF292C726A0032461E /* Exemple-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029FA9E1292C726A0032461E /* Exemple_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exemple_watchOSApp.swift; sourceTree = "<group>"; };
+		029FA9E3292C726A0032461E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		029FA9E5292C726A0032461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029FA9E8292C726A0032461E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		029FA9ED292C73D00032461E /* Exemple-watchOS-BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exemple-watchOS-BridgeHeader.h"; sourceTree = "<group>"; };
+		029FA9F2292C75430032461E /* Exemple-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exemple-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029FA9F4292C75430032461E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		029FA9F5292C75430032461E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		029FA9F7292C75430032461E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		029FA9F8292C75430032461E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		029FA9FA292C75440032461E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		029FA9FD292C75440032461E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		029FA9FF292C75440032461E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		029FAA01292C75440032461E /* Exemple_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Exemple_macOS.entitlements; sourceTree = "<group>"; };
+		029FAA05292C77000032461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0BA6CF13EC7FA16CCE047B43 /* libPods-Exemple-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exemple-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D6DB483E9E7356FE0E0E2E /* Pods-Exemple-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Exemple-watchOS/Pods-Exemple-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3670B27D69747D3808C1DD92 /* Pods-Exemple-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-watchOS.release.xcconfig"; path = "Target Support Files/Pods-Exemple-watchOS/Pods-Exemple-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		480355B1AAE31FDAB6CE7398 /* Pods-Exemple-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-macOS.debug.xcconfig"; path = "Target Support Files/Pods-Exemple-macOS/Pods-Exemple-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		52E7C96EE25869715C693DEC /* libPods-Exemple-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exemple-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74452E9FAA1A5BB2A6B4847D /* Pods-Exemple-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Exemple-iOS/Pods-Exemple-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A5E33CA99CF03673A0A6C456 /* libPods-Exemple-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Exemple-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32D05592270635E3D454350 /* Pods-Exemple-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-iOS.release.xcconfig"; path = "Target Support Files/Pods-Exemple-iOS/Pods-Exemple-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E4F1E5204859470C706D9E7D /* Pods-Exemple-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Exemple-macOS.release.xcconfig"; path = "Target Support Files/Pods-Exemple-macOS/Pods-Exemple-macOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E1BCF5DF292244BB00B5792F /* Frameworks */ = {
+		029FA99F292C71F40032461E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0206AB8229237A3700A42F52 /* QWeather.xcframework in Frameworks */,
+				031918677B572F713A41498F /* libPods-Exemple-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF6162922453B00B5792F /* Frameworks */ = {
+		029FA9DC292C726A0032461E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0206AB8529237A3E00A42F52 /* QWeather.xcframework in Frameworks */,
+				B2F8E557EF0BB808F9E359DA /* libPods-Exemple-watchOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF63F2922458D00B5792F /* Frameworks */ = {
+		029FA9EF292C75430032461E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0206AB8829237A4400A42F52 /* QWeather.xcframework in Frameworks */,
+				1C0D8983B1E8B0CBF833EC41 /* libPods-Exemple-macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E1BCF5D9292244BB00B5792F = {
+		029FA999292C71F40032461E = {
 			isa = PBXGroup;
 			children = (
-				E1BCF5E4292244BB00B5792F /* Exemple-iOS */,
-				E1BCF61A2922453B00B5792F /* Exemple-macOS */,
-				E1BCF6432922458D00B5792F /* Exemple-watchOS Watch App */,
-				E1BCF5E3292244BB00B5792F /* Products */,
-				E1BCF6502922462B00B5792F /* Frameworks */,
+				029FA9A4292C71F40032461E /* Exemple */,
+				029FA9E0292C726A0032461E /* Exemple-watchOS Watch App */,
+				029FA9F3292C75430032461E /* Exemple-macOS */,
+				029FA9A3292C71F40032461E /* Products */,
+				5BA1A907FD0445C4520F1736 /* Pods */,
+				1F7E79E1D814BCAF040222CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E1BCF5E3292244BB00B5792F /* Products */ = {
+		029FA9A3292C71F40032461E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1BCF5E2292244BB00B5792F /* Exemple-iOS.app */,
-				E1BCF6192922453B00B5792F /* Exemple-macOS.app */,
-				E1BCF6422922458D00B5792F /* Exemple-watchOS Watch App.app */,
+				029FA9A2292C71F40032461E /* Exemple-iOS.app */,
+				029FA9DF292C726A0032461E /* Exemple-watchOS.app */,
+				029FA9F2292C75430032461E /* Exemple-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1BCF5E4292244BB00B5792F /* Exemple-iOS */ = {
+		029FA9A4292C71F40032461E /* Exemple */ = {
 			isa = PBXGroup;
 			children = (
-				E1BCF5E5292244BB00B5792F /* AppDelegate.h */,
-				E1BCF5E6292244BB00B5792F /* AppDelegate.m */,
-				E1BCF5E8292244BB00B5792F /* SceneDelegate.h */,
-				E1BCF5E9292244BB00B5792F /* SceneDelegate.m */,
-				E1BCF5EB292244BB00B5792F /* ViewController.h */,
-				E1BCF5EC292244BB00B5792F /* ViewController.m */,
-				E1BCF5EE292244BB00B5792F /* Main.storyboard */,
-				E1BCF5F1292244BC00B5792F /* Assets.xcassets */,
-				E1BCF5F3292244BC00B5792F /* LaunchScreen.storyboard */,
-				E1BCF5F6292244BC00B5792F /* Info.plist */,
-				E1BCF5F7292244BC00B5792F /* main.m */,
+				029FA9A5292C71F40032461E /* AppDelegate.h */,
+				029FA9A6292C71F40032461E /* AppDelegate.m */,
+				029FA9A8292C71F40032461E /* SceneDelegate.h */,
+				029FA9A9292C71F40032461E /* SceneDelegate.m */,
+				029FA9AB292C71F40032461E /* ViewController.h */,
+				029FA9AC292C71F40032461E /* ViewController.m */,
+				029FA9AE292C71F40032461E /* Main.storyboard */,
+				029FA9B1292C71F40032461E /* Assets.xcassets */,
+				029FA9B3292C71F40032461E /* LaunchScreen.storyboard */,
+				029FA9B6292C71F40032461E /* Info.plist */,
+				029FA9B7292C71F40032461E /* main.m */,
 			);
-			path = "Exemple-iOS";
+			path = Exemple;
 			sourceTree = "<group>";
 		};
-		E1BCF61A2922453B00B5792F /* Exemple-macOS */ = {
+		029FA9E0292C726A0032461E /* Exemple-watchOS Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				E1BCF61B2922453B00B5792F /* AppDelegate.h */,
-				E1BCF61C2922453B00B5792F /* AppDelegate.m */,
-				E1BCF61E2922453B00B5792F /* ViewController.h */,
-				E1BCF61F2922453B00B5792F /* ViewController.m */,
-				E1BCF6212922453C00B5792F /* Assets.xcassets */,
-				E1BCF6232922453C00B5792F /* Main.storyboard */,
-				E1BCF6262922453C00B5792F /* main.m */,
-				E1BCF6282922453C00B5792F /* Exemple_macOS.entitlements */,
-			);
-			path = "Exemple-macOS";
-			sourceTree = "<group>";
-		};
-		E1BCF6432922458D00B5792F /* Exemple-watchOS Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				E1BCF6442922458D00B5792F /* Exemple_watchOSApp.swift */,
-				E1BCF6462922458D00B5792F /* ContentView.swift */,
-				E1BCF65829224A6000B5792F /* Header-Bridge.h */,
-				E1BCF6482922458D00B5792F /* Assets.xcassets */,
-				E1BCF64A2922458D00B5792F /* Preview Content */,
+				029FA9E1292C726A0032461E /* Exemple_watchOSApp.swift */,
+				029FA9E3292C726A0032461E /* ContentView.swift */,
+				029FA9ED292C73D00032461E /* Exemple-watchOS-BridgeHeader.h */,
+				029FA9E5292C726A0032461E /* Assets.xcassets */,
+				029FA9E7292C726A0032461E /* Preview Content */,
 			);
 			path = "Exemple-watchOS Watch App";
 			sourceTree = "<group>";
 		};
-		E1BCF64A2922458D00B5792F /* Preview Content */ = {
+		029FA9E7292C726A0032461E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				E1BCF64B2922458D00B5792F /* Preview Assets.xcassets */,
+				029FA9E8292C726A0032461E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E1BCF6502922462B00B5792F /* Frameworks */ = {
+		029FA9F3292C75430032461E /* Exemple-macOS */ = {
 			isa = PBXGroup;
 			children = (
-				0206AB8129237A3700A42F52 /* QWeather.xcframework */,
+				029FAA05292C77000032461E /* Info.plist */,
+				029FA9F4292C75430032461E /* AppDelegate.h */,
+				029FA9F5292C75430032461E /* AppDelegate.m */,
+				029FA9F7292C75430032461E /* ViewController.h */,
+				029FA9F8292C75430032461E /* ViewController.m */,
+				029FA9FA292C75440032461E /* Assets.xcassets */,
+				029FA9FC292C75440032461E /* Main.storyboard */,
+				029FA9FF292C75440032461E /* main.m */,
+				029FAA01292C75440032461E /* Exemple_macOS.entitlements */,
+			);
+			path = "Exemple-macOS";
+			sourceTree = "<group>";
+		};
+		1F7E79E1D814BCAF040222CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA6CF13EC7FA16CCE047B43 /* libPods-Exemple-iOS.a */,
+				A5E33CA99CF03673A0A6C456 /* libPods-Exemple-macOS.a */,
+				52E7C96EE25869715C693DEC /* libPods-Exemple-watchOS.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BA1A907FD0445C4520F1736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74452E9FAA1A5BB2A6B4847D /* Pods-Exemple-iOS.debug.xcconfig */,
+				C32D05592270635E3D454350 /* Pods-Exemple-iOS.release.xcconfig */,
+				480355B1AAE31FDAB6CE7398 /* Pods-Exemple-macOS.debug.xcconfig */,
+				E4F1E5204859470C706D9E7D /* Pods-Exemple-macOS.release.xcconfig */,
+				13D6DB483E9E7356FE0E0E2E /* Pods-Exemple-watchOS.debug.xcconfig */,
+				3670B27D69747D3808C1DD92 /* Pods-Exemple-watchOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1BCF5E1292244BB00B5792F /* Exemple-iOS */ = {
+		029FA9A1292C71F40032461E /* Exemple-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1BCF5FB292244BC00B5792F /* Build configuration list for PBXNativeTarget "Exemple-iOS" */;
+			buildConfigurationList = 029FA9BB292C71F40032461E /* Build configuration list for PBXNativeTarget "Exemple-iOS" */;
 			buildPhases = (
-				E1BCF5DE292244BB00B5792F /* Sources */,
-				E1BCF5DF292244BB00B5792F /* Frameworks */,
-				E1BCF5E0292244BB00B5792F /* Resources */,
-				0206AB8429237A3800A42F52 /* Embed Frameworks */,
+				D3F1D3BD752B049A69467646 /* [CP] Check Pods Manifest.lock */,
+				029FA99E292C71F40032461E /* Sources */,
+				029FA99F292C71F40032461E /* Frameworks */,
+				029FA9A0292C71F40032461E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -226,17 +213,35 @@
 			);
 			name = "Exemple-iOS";
 			productName = Exemple;
-			productReference = E1BCF5E2292244BB00B5792F /* Exemple-iOS.app */;
+			productReference = 029FA9A2292C71F40032461E /* Exemple-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1BCF6182922453B00B5792F /* Exemple-macOS */ = {
+		029FA9DE292C726A0032461E /* Exemple-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1BCF6292922453C00B5792F /* Build configuration list for PBXNativeTarget "Exemple-macOS" */;
+			buildConfigurationList = 029FA9EA292C726A0032461E /* Build configuration list for PBXNativeTarget "Exemple-watchOS" */;
 			buildPhases = (
-				E1BCF6152922453B00B5792F /* Sources */,
-				E1BCF6162922453B00B5792F /* Frameworks */,
-				E1BCF6172922453B00B5792F /* Resources */,
-				0206AB8729237A3E00A42F52 /* Embed Frameworks */,
+				D9E54C1A1EE20F16B0AB07A7 /* [CP] Check Pods Manifest.lock */,
+				029FA9DB292C726A0032461E /* Sources */,
+				029FA9DC292C726A0032461E /* Frameworks */,
+				029FA9DD292C726A0032461E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exemple-watchOS";
+			productName = "Exemple-watchOS Watch App";
+			productReference = 029FA9DF292C726A0032461E /* Exemple-watchOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		029FA9F1292C75430032461E /* Exemple-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029FAA02292C75440032461E /* Build configuration list for PBXNativeTarget "Exemple-macOS" */;
+			buildPhases = (
+				C979AB4DA76E938A3ECC541C /* [CP] Check Pods Manifest.lock */,
+				029FA9EE292C75430032461E /* Sources */,
+				029FA9EF292C75430032461E /* Frameworks */,
+				029FA9F0292C75430032461E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -244,49 +249,31 @@
 			);
 			name = "Exemple-macOS";
 			productName = "Exemple-macOS";
-			productReference = E1BCF6192922453B00B5792F /* Exemple-macOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		E1BCF6412922458D00B5792F /* Exemple-watchOS Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1BCF64D2922458D00B5792F /* Build configuration list for PBXNativeTarget "Exemple-watchOS Watch App" */;
-			buildPhases = (
-				E1BCF63E2922458D00B5792F /* Sources */,
-				E1BCF63F2922458D00B5792F /* Frameworks */,
-				E1BCF6402922458D00B5792F /* Resources */,
-				0206AB8A29237A4400A42F52 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Exemple-watchOS Watch App";
-			productName = "Exemple-watchOS Watch App";
-			productReference = E1BCF6422922458D00B5792F /* Exemple-watchOS Watch App.app */;
+			productReference = 029FA9F2292C75430032461E /* Exemple-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E1BCF5DA292244BB00B5792F /* Project object */ = {
+		029FA99A292C71F40032461E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					E1BCF5E1292244BB00B5792F = {
+					029FA9A1292C71F40032461E = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					E1BCF6182922453B00B5792F = {
+					029FA9DE292C726A0032461E = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					E1BCF6412922458D00B5792F = {
+					029FA9F1292C75430032461E = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = E1BCF5DD292244BB00B5792F /* Build configuration list for PBXProject "Exemple" */;
+			buildConfigurationList = 029FA99D292C71F40032461E /* Build configuration list for PBXProject "Exemple" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -294,103 +281,172 @@
 				en,
 				Base,
 			);
-			mainGroup = E1BCF5D9292244BB00B5792F;
-			productRefGroup = E1BCF5E3292244BB00B5792F /* Products */;
+			mainGroup = 029FA999292C71F40032461E;
+			productRefGroup = 029FA9A3292C71F40032461E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1BCF5E1292244BB00B5792F /* Exemple-iOS */,
-				E1BCF6182922453B00B5792F /* Exemple-macOS */,
-				E1BCF6412922458D00B5792F /* Exemple-watchOS Watch App */,
+				029FA9A1292C71F40032461E /* Exemple-iOS */,
+				029FA9DE292C726A0032461E /* Exemple-watchOS */,
+				029FA9F1292C75430032461E /* Exemple-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E1BCF5E0292244BB00B5792F /* Resources */ = {
+		029FA9A0292C71F40032461E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF5F5292244BC00B5792F /* LaunchScreen.storyboard in Resources */,
-				E1BCF5F2292244BC00B5792F /* Assets.xcassets in Resources */,
-				E1BCF5F0292244BB00B5792F /* Main.storyboard in Resources */,
+				029FA9B5292C71F40032461E /* LaunchScreen.storyboard in Resources */,
+				029FA9B2292C71F40032461E /* Assets.xcassets in Resources */,
+				029FA9B0292C71F40032461E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF6172922453B00B5792F /* Resources */ = {
+		029FA9DD292C726A0032461E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF6222922453C00B5792F /* Assets.xcassets in Resources */,
-				E1BCF6252922453C00B5792F /* Main.storyboard in Resources */,
+				029FA9E9292C726A0032461E /* Preview Assets.xcassets in Resources */,
+				029FA9E6292C726A0032461E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF6402922458D00B5792F /* Resources */ = {
+		029FA9F0292C75430032461E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF64C2922458D00B5792F /* Preview Assets.xcassets in Resources */,
-				E1BCF6492922458D00B5792F /* Assets.xcassets in Resources */,
+				029FA9FB292C75440032461E /* Assets.xcassets in Resources */,
+				029FA9FE292C75440032461E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C979AB4DA76E938A3ECC541C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exemple-macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F1D3BD752B049A69467646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exemple-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E54C1A1EE20F16B0AB07A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Exemple-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E1BCF5DE292244BB00B5792F /* Sources */ = {
+		029FA99E292C71F40032461E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF5ED292244BB00B5792F /* ViewController.m in Sources */,
-				E1BCF5E7292244BB00B5792F /* AppDelegate.m in Sources */,
-				E1BCF5F8292244BC00B5792F /* main.m in Sources */,
-				E1BCF5EA292244BB00B5792F /* SceneDelegate.m in Sources */,
+				029FA9AD292C71F40032461E /* ViewController.m in Sources */,
+				029FA9A7292C71F40032461E /* AppDelegate.m in Sources */,
+				029FA9B8292C71F40032461E /* main.m in Sources */,
+				029FA9AA292C71F40032461E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF6152922453B00B5792F /* Sources */ = {
+		029FA9DB292C726A0032461E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF6202922453B00B5792F /* ViewController.m in Sources */,
-				E1BCF6272922453C00B5792F /* main.m in Sources */,
-				E1BCF61D2922453B00B5792F /* AppDelegate.m in Sources */,
+				029FA9E4292C726A0032461E /* ContentView.swift in Sources */,
+				029FA9E2292C726A0032461E /* Exemple_watchOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1BCF63E2922458D00B5792F /* Sources */ = {
+		029FA9EE292C75430032461E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BCF6472922458D00B5792F /* ContentView.swift in Sources */,
-				E1BCF6452922458D00B5792F /* Exemple_watchOSApp.swift in Sources */,
+				029FA9F9292C75430032461E /* ViewController.m in Sources */,
+				029FAA00292C75440032461E /* main.m in Sources */,
+				029FA9F6292C75430032461E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E1BCF5EE292244BB00B5792F /* Main.storyboard */ = {
+		029FA9AE292C71F40032461E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E1BCF5EF292244BB00B5792F /* Base */,
+				029FA9AF292C71F40032461E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E1BCF5F3292244BC00B5792F /* LaunchScreen.storyboard */ = {
+		029FA9B3292C71F40032461E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E1BCF5F4292244BC00B5792F /* Base */,
+				029FA9B4292C71F40032461E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		E1BCF6232922453C00B5792F /* Main.storyboard */ = {
+		029FA9FC292C75440032461E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E1BCF6242922453C00B5792F /* Base */,
+				029FA9FD292C75440032461E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -398,7 +454,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E1BCF5F9292244BC00B5792F /* Debug */ = {
+		029FA9B9292C71F40032461E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -456,7 +512,7 @@
 			};
 			name = Debug;
 		};
-		E1BCF5FA292244BC00B5792F /* Release */ = {
+		029FA9BA292C71F40032461E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -508,8 +564,9 @@
 			};
 			name = Release;
 		};
-		E1BCF5FC292244BC00B5792F /* Debug */ = {
+		029FA9BC292C71F40032461E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74452E9FAA1A5BB2A6B4847D /* Pods-Exemple-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -517,7 +574,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Exemple-iOS/Info.plist";
+				INFOPLIST_FILE = Exemple/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -535,8 +595,9 @@
 			};
 			name = Debug;
 		};
-		E1BCF5FD292244BC00B5792F /* Release */ = {
+		029FA9BD292C71F40032461E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32D05592270635E3D454350 /* Pods-Exemple-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,7 +605,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Exemple-iOS/Info.plist";
+				INFOPLIST_FILE = Exemple/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -562,64 +626,9 @@
 			};
 			name = Release;
 		};
-		E1BCF62A2922453C00B5792F /* Debug */ = {
+		029FA9EB292C726A0032461E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Exemple-macOS/Exemple_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heweather.Exemple-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Debug;
-		};
-		E1BCF62B2922453C00B5792F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Exemple-macOS/Exemple_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heweather.Exemple-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-			};
-			name = Release;
-		};
-		E1BCF64E2922458D00B5792F /* Debug */ = {
-			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D6DB483E9E7356FE0E0E2E /* Pods-Exemple-watchOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -643,7 +652,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Exemple-watchOS Watch App/Header-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Exemple-watchOS Watch App/Exemple-watchOS-BridgeHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -651,8 +660,9 @@
 			};
 			name = Debug;
 		};
-		E1BCF64F2922458D00B5792F /* Release */ = {
+		029FA9EC292C726A0032461E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3670B27D69747D3808C1DD92 /* Pods-Exemple-watchOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -676,7 +686,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Exemple-watchOS Watch App/Header-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Exemple-watchOS Watch App/Exemple-watchOS-BridgeHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -684,46 +694,112 @@
 			};
 			name = Release;
 		};
+		029FAA03292C75440032461E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480355B1AAE31FDAB6CE7398 /* Pods-Exemple-macOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exemple-macOS/Exemple_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exemple-macOS/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heweather.Exemple-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		029FAA04292C75440032461E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F1E5204859470C706D9E7D /* Pods-Exemple-macOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Exemple-macOS/Exemple_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exemple-macOS/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.heweather.Exemple-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1BCF5DD292244BB00B5792F /* Build configuration list for PBXProject "Exemple" */ = {
+		029FA99D292C71F40032461E /* Build configuration list for PBXProject "Exemple" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1BCF5F9292244BC00B5792F /* Debug */,
-				E1BCF5FA292244BC00B5792F /* Release */,
+				029FA9B9292C71F40032461E /* Debug */,
+				029FA9BA292C71F40032461E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1BCF5FB292244BC00B5792F /* Build configuration list for PBXNativeTarget "Exemple-iOS" */ = {
+		029FA9BB292C71F40032461E /* Build configuration list for PBXNativeTarget "Exemple-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1BCF5FC292244BC00B5792F /* Debug */,
-				E1BCF5FD292244BC00B5792F /* Release */,
+				029FA9BC292C71F40032461E /* Debug */,
+				029FA9BD292C71F40032461E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1BCF6292922453C00B5792F /* Build configuration list for PBXNativeTarget "Exemple-macOS" */ = {
+		029FA9EA292C726A0032461E /* Build configuration list for PBXNativeTarget "Exemple-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1BCF62A2922453C00B5792F /* Debug */,
-				E1BCF62B2922453C00B5792F /* Release */,
+				029FA9EB292C726A0032461E /* Debug */,
+				029FA9EC292C726A0032461E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1BCF64D2922458D00B5792F /* Build configuration list for PBXNativeTarget "Exemple-watchOS Watch App" */ = {
+		029FAA02292C75440032461E /* Build configuration list for PBXNativeTarget "Exemple-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1BCF64E2922458D00B5792F /* Debug */,
-				E1BCF64F2922458D00B5792F /* Release */,
+				029FAA03292C75440032461E /* Debug */,
+				029FAA04292C75440032461E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E1BCF5DA292244BB00B5792F /* Project object */;
+	rootObject = 029FA99A292C71F40032461E /* Project object */;
 }
