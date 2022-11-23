@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import <QWeather/QWeather.h>
 @implementation ViewController
 
 - (void)viewDidLoad {

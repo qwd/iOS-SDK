@@ -68,7 +68,7 @@ SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>QWeather</string>
+			<string>QWeather-SDK</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

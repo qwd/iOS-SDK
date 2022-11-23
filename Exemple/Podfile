@@ -1,6 +1,6 @@
 
 def share_pods
- pod 'QWeather', :path => '../'
+ pod 'QWeather-SDK', :path => '../'
 end 
 
 target 'Exemple-iOS' do
@@ -13,9 +13,9 @@ target 'Exemple-macOS' do
   share_pods
 end
 
-target 'Exemple-watchOS' do
-  platform :watchos, '2.0'
-  share_pods
-end
+# target 'Exemple-watchOS' do
+#   platform :watchos, '2.0'
+#   share_pods
+# end
 
 
