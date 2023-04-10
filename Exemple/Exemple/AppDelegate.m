@@ -15,21 +15,56 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    QWeatherConfigInstance.publicID = @"HE2211231116281682"; // 替换你的publicID
-    QWeatherConfigInstance.appKey = @"d9606ea5e31e4e7597d698c82f1890e9"; // 替换你的appKey
-    QWeatherConfigInstance.appType = APP_TYPE_DEV;
-    QWeatherConfigInstance.languageType = LANGUAGE_TYPE_ZH;
-    QWeatherConfigInstance.unitType = UNIT_TYPE_M;
-    QWeatherConfigInstance.date = @"20221123";
-    [self getWeatherNow];
+    // TODO: add your 'publicID' and 'appKey'
+    // QWeatherConfigInstance.publicID = @"xxx";
+    // QWeatherConfigInstance.appKey   = @"xxx";
+    QWeatherConfigInstance.lang     = @"zh";
+    QWeatherConfigInstance.unit     = @"m";
+    QWeatherConfigInstance.appType  = APP_TYPE_BIZ;
+    [self WEATHER_NOW];
+    [self GEO_CITY_LOOKUP];
+    [self ASTRONOMY_SUN];
+    [self HISTORICAL_WEATHER];
     return YES;
 }
 
 
--(void)getWeatherNow{
+-(void)WEATHER_NOW{
     QWeatherConfigInstance.location = @"101010100";
+    QWeatherConfigInstance.date     = @"2023-04-10 15:46";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_WEATHER_NOW WithSuccess:^(QWeatherBaseModel  *responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+
+- (void)GEO_CITY_LOOKUP {
+    QWeatherConfigInstance.location = @"Beijing";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_GEO_CITY_LOOKUP WithSuccess:^(QWeatherBaseModel  *responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+
+- (void)ASTRONOMY_SUN {
+    QWeatherConfigInstance.location = @"101010100";
+    QWeatherConfigInstance.date = @"20230410";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_ASTRONOMY_SUN WithSuccess:^(QWeatherBaseModel  *responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+
+- (void)HISTORICAL_WEATHER {
+    QWeatherConfigInstance.location = @"101010100";
+    QWeatherConfigInstance.date = @"20230409";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_HISTORICAL_WEATHER WithSuccess:^(QWeatherBaseModel  *responseObject) {
         NSLog(@"描述->%@",[responseObject description]);
     } faileureForError:^(NSError *error) {
         NSLog(@"error->%@",error);

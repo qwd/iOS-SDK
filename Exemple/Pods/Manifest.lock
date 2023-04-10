@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - QWeather-SDK (4.10):
+  - QWeather-SDK (4.12):
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
@@ -29,9 +29,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  QWeather-SDK: 20ef99647726903bb1583ceedee1d418176cedd4
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  QWeather-SDK: 45c05f5357169658c729f1f494d15c50661a2522
 
-PODFILE CHECKSUM: d3a56a58cdc6d2aa938379c04b834dd201ef1a4f
+PODFILE CHECKSUM: 7e3964cf179bfba7d72b22b2d01d0ac533a09927
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.0

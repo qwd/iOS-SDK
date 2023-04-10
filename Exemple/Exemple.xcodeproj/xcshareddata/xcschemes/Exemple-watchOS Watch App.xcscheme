@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "029FA9DE292C726A0032461E"
+               BlueprintIdentifier = "02EFF67329E3E8FC00025604"
                BuildableName = "Exemple-watchOS.app"
                BlueprintName = "Exemple-watchOS"
                ReferencedContainer = "container:Exemple.xcodeproj">
@@ -44,7 +44,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "029FA9DE292C726A0032461E"
+            BlueprintIdentifier = "02EFF67329E3E8FC00025604"
             BuildableName = "Exemple-watchOS.app"
             BlueprintName = "Exemple-watchOS"
             ReferencedContainer = "container:Exemple.xcodeproj">
@@ -61,7 +61,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "029FA9DE292C726A0032461E"
+            BlueprintIdentifier = "02EFF67329E3E8FC00025604"
             BuildableName = "Exemple-watchOS.app"
             BlueprintName = "Exemple-watchOS"
             ReferencedContainer = "container:Exemple.xcodeproj">

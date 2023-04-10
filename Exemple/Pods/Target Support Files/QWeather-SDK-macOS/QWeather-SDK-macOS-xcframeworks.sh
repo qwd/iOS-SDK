@@ -29,11 +29,11 @@ variant_for_slice()
   "QWeather.xcframework/macos-arm64_x86_64")
     echo ""
     ;;
-  "QWeather.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "simulator"
-    ;;
   "QWeather.xcframework/watchos-arm64_arm64_32_armv7k")
     echo ""
+    ;;
+  "QWeather.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "simulator"
     ;;
   esac
 }
@@ -53,11 +53,11 @@ archs_for_slice()
   "QWeather.xcframework/macos-arm64_x86_64")
     echo "arm64 x86_64"
     ;;
-  "QWeather.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "arm64 i386 x86_64"
-    ;;
   "QWeather.xcframework/watchos-arm64_arm64_32_armv7k")
     echo "arm64 arm64_32 armv7k"
+    ;;
+  "QWeather.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "arm64 i386 x86_64"
     ;;
   esac
 }

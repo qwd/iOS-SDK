@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AllWeatherInquieirs.h</key>
 		<data>
-		ycpYh3oCxmcdxbwQi/cEPV1z7d4=
+		wXqsijXDsGJ3TD7DS6GOAhqEg18=
 		</data>
 		<key>Headers/DataBaseClasses.h</key>
 		<data>
@@ -28,6 +28,10 @@
 		<data>
 		GeLDFgQE5HYgy+5j/4HjtlDDPSI=
 		</data>
+		<key>Headers/NSObject+HeFengModel.h</key>
+		<data>
+		HaMyTF+998uHZBm9GpcIovkyeKk=
+		</data>
 		<key>Headers/OceanCurrentsBaseClass.h</key>
 		<data>
 		jLn0IygYnEb8tlPQOdtpwQdSir4=
@@ -38,7 +42,7 @@
 		</data>
 		<key>Headers/QWeather.h</key>
 		<data>
-		POyYOWQFlExJXmeN22zmlc/8nvk=
+		mxza7RJYmOq2gliDYL9hO2raRQQ=
 		</data>
 		<key>Headers/QWeatherBaseModel.h</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cMdQ5N4b5QMarAOhtaVaE0UeD+o=
+		xiNH4z6eU/4h/v22cmUyj93HgU0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -110,11 +114,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ycpYh3oCxmcdxbwQi/cEPV1z7d4=
+			wXqsijXDsGJ3TD7DS6GOAhqEg18=
 			</data>
 			<key>hash2</key>
 			<data>
-			NNLW62/pLIokD4toxpaaGDUw2kwH18y/exKqtS68Xn0=
+			VX7LvVnto0u+Un5BBy2IJrcXHTYf7HuTqWfBN1NqEOw=
 			</data>
 		</dict>
 		<key>Headers/DataBaseClasses.h</key>
@@ -161,6 +165,17 @@
 			KDj6LzIjFXZPJX/+++0HYeDc1kGOrhw4M6udr3fAIRo=
 			</data>
 		</dict>
+		<key>Headers/NSObject+HeFengModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HaMyTF+998uHZBm9GpcIovkyeKk=
+			</data>
+			<key>hash2</key>
+			<data>
+			DPpQzIncKXnc0d+U0Jb8f9A68j7+2hYNemSCurxZ1nY=
+			</data>
+		</dict>
 		<key>Headers/OceanCurrentsBaseClass.h</key>
 		<dict>
 			<key>hash</key>
@@ -187,11 +202,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			POyYOWQFlExJXmeN22zmlc/8nvk=
+			mxza7RJYmOq2gliDYL9hO2raRQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			EMiAJm2ieIE+in+lY6Rge1rLNTa+uDupzSg6XAWx0rg=
+			fOEvrv/apNqQoKZKCd3Ae6JGfXRFsjL4F7Bjtg4TtB0=
 			</data>
 		</dict>
 		<key>Headers/QWeatherBaseModel.h</key>

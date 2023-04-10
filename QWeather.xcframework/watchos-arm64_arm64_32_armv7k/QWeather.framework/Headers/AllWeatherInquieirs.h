@@ -11,8 +11,8 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, APP_TYPE) {
-    APP_TYPE_BIZ = 1,// 付费用户
-    APP_TYPE_DEV = 2,// 普通用户
+    APP_TYPE_BIZ = 1,// 标准订阅版
+    APP_TYPE_DEV = 2,// 免费订阅版
 };
 
 typedef NS_ENUM(NSInteger, INQUIRE_TYPE) {
@@ -259,17 +259,17 @@ typedef NS_ENUM(NSInteger, SERCHMODE_TYPE) {
 @property (nonatomic, strong) NSArray<NSNumber *> *indices;
 
 /**
-选择POI所在城市，可设定只搜索在特定城市内的POI信息。城市名称可以是中文、英文或城市的LocationID。默认全世界范围。
-城市名称需要精准匹配，建议使用LocaitonID，如城市名称无法识别，则数据返回为空。
-*/
+ 选择POI所在城市，可设定只搜索在特定城市内的POI信息。城市名称可以是中文、英文或城市的LocationID。默认全世界范围。
+ 城市名称需要精准匹配，建议使用LocaitonID，如城市名称无法识别，则数据返回为空。
+ */
 @property (nonatomic,copy) NSString *city;
 /**
-POI类型，可选择搜索某一类型的POI，目前仅限景点。例如type=scenic
-*/
+ POI类型，可选择搜索某一类型的POI，目前仅限景点。例如type=scenic
+ */
 @property (nonatomic,copy) NSString *type;
 /**
-POI类型，搜索范围，可设置搜索半径，取值范围1-50，单位：公里。默认5公里。
-*/
+ POI类型，搜索范围，可设置搜索半径，取值范围1-50，单位：公里。默认5公里。
+ */
 @property (nonatomic,copy) NSString *radius;
 /**
  查询灾害预警列表选择指定的国家，目前仅支持中国。例如range=cn。
@@ -321,10 +321,4 @@ POI类型，搜索范围，可设置搜索半径，取值范围1-50，单位：�
                    WithSuccess:(void(^)(id responseObject))getSuccess
               faileureForError:(void(^)(NSError *error))getError;
 
-/**
- 修改域名
- 
- @param domain 访问域名字符串，默认： 付费为https://api.QWeather.net 免费为https://devapi.QWeather.net
- */
--(void)changeDomain:(NSString *)domain;
 @end
