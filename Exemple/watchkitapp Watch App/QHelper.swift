@@ -28,7 +28,7 @@ struct QHelper {
              return
         }
         config.location = "101010100"
-        config.date     = "2023-04-10 15:46"
+        config.date     = "2023-04-11 17:23"
         config.weather(withInquireType: .WEATHER_NOW) { result in
             if let result  = result as? WeatherBaseClass {
                 print(result.debugDescription)
@@ -63,7 +63,7 @@ struct QHelper {
              return
         }
         config.location = "101010100"
-        config.date = "20230410"
+        config.date = "20230411"
         config.weather(withInquireType: .ASTRONOMY_SUN) { result in
             if let result  = result as? SunBaseModel {
                 print(result.debugDescription)

@@ -16,8 +16,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // TODO: add your 'publicID' and 'appKey'
-    // QWeatherConfigInstance.publicID = @"xxx";
-    // QWeatherConfigInstance.appKey   = @"xxx";
+     QWeatherConfigInstance.publicID = @"HE2304071906591863";
+     QWeatherConfigInstance.appKey   = @"579a411670534affa31a2cb9dac00131";
     QWeatherConfigInstance.lang     = @"zh";
     QWeatherConfigInstance.unit     = @"m";
     QWeatherConfigInstance.appType  = APP_TYPE_BIZ;
@@ -29,7 +29,7 @@
 
 -(void)WEATHER_NOW{
     QWeatherConfigInstance.location = @"101010100";
-    QWeatherConfigInstance.date     = @"2023-04-10 15:46";
+    QWeatherConfigInstance.date     = @"2023-04-11 17:22";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_WEATHER_NOW WithSuccess:^(QWeatherBaseModel  *responseObject) {
         NSLog(@"描述->%@",[responseObject description]);
     } faileureForError:^(NSError *error) {
@@ -50,7 +50,7 @@
 
 - (void)ASTRONOMY_SUN {
     QWeatherConfigInstance.location = @"101010100";
-    QWeatherConfigInstance.date     = @"20230410";
+    QWeatherConfigInstance.date = @"20230411";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_ASTRONOMY_SUN WithSuccess:^(QWeatherBaseModel  *responseObject) {
         NSLog(@"描述->%@",[responseObject description]);
     } faileureForError:^(NSError *error) {
@@ -58,9 +58,10 @@
     }];
 }
 
+
 - (void)HISTORICAL_WEATHER {
     QWeatherConfigInstance.location = @"101010100";
-    QWeatherConfigInstance.date     = @"20230409";
+    QWeatherConfigInstance.date = @"20230410";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_HISTORICAL_WEATHER WithSuccess:^(QWeatherBaseModel  *responseObject) {
         NSLog(@"描述->%@",[responseObject description]);
     } faileureForError:^(NSError *error) {

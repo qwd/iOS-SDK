@@ -1,6 +1,6 @@
 
 def share_pods
- pod 'QWeather-SDK', :path => '../'
+ pod 'QWeather-SDK', :git => 'https://github.com/qwd/iOS-SDK.git'
 end 
 
 target 'Exemple-iOS' do
@@ -9,12 +9,12 @@ target 'Exemple-iOS' do
 end
 
 target 'Exemple-macOS' do
-  platform :osx, '10.12'
+  platform :osx, '10.13'
   share_pods
 end
 
 target 'Exemple-watchOS' do
-  platform :watchos, '3.0'
+  platform :watchos, '4.0'
   share_pods
 end
 
