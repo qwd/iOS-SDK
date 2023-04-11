@@ -1,6 +1,6 @@
 
 def share_pods
- pod 'QWeather-SDK', :git => 'https://github.com/qwd/iOS-SDK.git'
+ pod 'QWeather-SDK', :path => '../'
 end 
 
 target 'Exemple-iOS' do
