@@ -116,11 +116,6 @@ typedef NS_ENUM(NSInteger, BASIN_TYPE) {
     BASIN_TYPE_SI,//南印度洋
 };
 
-typedef NS_ENUM(NSInteger, SERCHMODE_TYPE) {
-    SERCHMODE_TYPE_EXACT= 0,//精准查询
-    SERCHMODE_TYPE_FUZZY = 1,//模糊搜索
-};
-
 @interface AllWeatherInquieirs : NSObject
 
 #pragma mark -  请在 AppDelegate 中填写
@@ -271,13 +266,14 @@ typedef NS_ENUM(NSInteger, SERCHMODE_TYPE) {
  POI类型，搜索范围，可设置搜索半径，取值范围1-50，单位：公里。默认5公里。
  */
 @property (nonatomic,copy) NSString *radius;
+
+
 /**
  查询灾害预警列表选择指定的国家，目前仅支持中国。例如range=cn。
  查询热门城市范围，默认全球范围。 可选择某个国家范围内的热门城市，国家名称需使用ISO 3166 所定义的国家代码。
- world 全球城市范围，默认
+ 默认 nil 全球城市，
  cn 中国城市范围，可替换为其他国家的 ISO 3166 国家代码，例如range=cn
  */
-
 @property (nonatomic, copy) NSString *range;
 
 
@@ -287,21 +283,11 @@ typedef NS_ENUM(NSInteger, SERCHMODE_TYPE) {
 @property (nonatomic, copy) NSString *adm;
 
 /**
- 查询方式(城市搜索专用属性)
- 可选值:模糊检索(fuzzy)、精准检索(exact)
- 默认:mode = SERCHMODE_TYPE_EXACT
- 可选
- */
-
-@property (nonatomic, assign) SERCHMODE_TYPE mode;
-
-/**
  搜索查询返回的数量
  默认返回20个与查询城市或的确相关性最强的结果，可选1-50个，当使用IP地址或坐标查询时，仅返回一个结果
  默认:number=@"20"
  可选
  */
-
 @property (nonatomic, copy) NSString *number;
 
 #pragma mark - Init

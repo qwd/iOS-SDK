@@ -4,3 +4,8 @@ framework module QWeather {
   export *
   module * { export * }
 }
+
+module QWeather.Swift {
+  header "QWeatherSDK-Swift.h"
+  requires objc
+}

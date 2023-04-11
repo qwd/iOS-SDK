@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/qwd/iOS-SDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "韩笑白" => "hanxiaobai@qweather.com" }
-  s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.10"
-  s.watchos.deployment_target = "2.0"
+  s.ios.deployment_target = "11.0"
+  s.osx.deployment_target = "10.13"
+  s.watchos.deployment_target = "4.0"
   s.source       = { :git => "https://github.com/qwd/iOS-SDK.git", :tag => s.version.to_s  }
   s.vendored_frameworks = "QWeather.xcframework"
   # s.user_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
@@ -24,5 +24,6 @@ Pod::Spec.new do |s|
   s.ios.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather' }
   s.osx.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather' }
   s.watchos.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.qwd.QWeather-watchOS' }
-  s.dependency 'AFNetworking', '~> 4.0.1'
+  s.swift_versions = ['5']
+  s.dependency 'Alamofire', '~> 5.6.4'
 end

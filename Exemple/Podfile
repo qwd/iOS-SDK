@@ -4,23 +4,19 @@ def share_pods
 end 
 
 target 'Exemple-iOS' do
-  platform :ios, '9.0'
+  platform :ios, '11.0'
   share_pods
 end
 
 target 'Exemple-macOS' do
-  platform :osx, '10.10'
+  platform :osx, '10.12'
   share_pods
 end
 
 target 'Exemple-watchOS' do
-  platform :watchos, '9.0'
+  platform :watchos, '3.0'
   share_pods
 end
 
-# target 'Exemple-watchOS' do
-#   platform :watchos, '2.0'
-#   share_pods
-# end
 
 
