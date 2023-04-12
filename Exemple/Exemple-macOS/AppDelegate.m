@@ -29,7 +29,6 @@
 
 -(void)WEATHER_NOW{
     QWeatherConfigInstance.location = @"101010100";
-    QWeatherConfigInstance.date     = @"2023-04-11 17:22";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_WEATHER_NOW WithSuccess:^(QWeatherBaseModel  *responseObject) {
         NSLog(@"描述->%@",[responseObject description]);
     } faileureForError:^(NSError *error) {

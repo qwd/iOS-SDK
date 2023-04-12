@@ -259,7 +259,7 @@ typedef NS_ENUM(NSInteger, BASIN_TYPE) {
  */
 @property (nonatomic,copy) NSString *city;
 /**
- POI类型，可选择搜索某一类型的POI，目前仅限景点。例如type=scenic
+ POI类型，可选择搜索某一类型的POI。scenic 景点 、CSTA 潮流站点、TSTA 潮汐站点
  */
 @property (nonatomic,copy) NSString *type;
 /**
@@ -284,8 +284,7 @@ typedef NS_ENUM(NSInteger, BASIN_TYPE) {
 
 /**
  搜索查询返回的数量
- 默认返回20个与查询城市或的确相关性最强的结果，可选1-50个，当使用IP地址或坐标查询时，仅返回一个结果
- 默认:number=@"20"
+ 取值范围1-20，默认返回10个结果。当使用IP地址或坐标查询时，仅返回一个结果
  可选
  */
 @property (nonatomic, copy) NSString *number;

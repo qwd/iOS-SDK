@@ -22,20 +22,18 @@ FOUNDATION_EXPORT const unsigned char QWeatherVersionString[];
 /**
  * 写在前面的（废）话
  *
- * 此项目中用到了 AFN 进行网络请求 
+ * 此项目中用到了 Alamofire 进行网络请求
  *
- * 使用时请确保你的项目中有 AFN（4.0.0+）
+ * 使用时请确保你的项目中有 Alamofire（5.6.4+）
  */
 /**
  * sdk需要开启定位权限，请在工程plist.info文件中添加NSLocationWhenInUseUsageDescription
  */
-
 /**
  * 使用时请仔细阅读相关文档 https://dev.qweather.com/docs/ios-sdk/
  *
  * 其他内容这里不做赘述，祝你写 BUG 愉快
  */
-
 
 #import "AllWeatherInquieirs.h"
 #import "DataBaseClasses.h"

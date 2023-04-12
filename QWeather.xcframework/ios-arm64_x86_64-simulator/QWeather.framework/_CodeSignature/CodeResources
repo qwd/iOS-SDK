@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/AllWeatherInquieirs.h</key>
 		<data>
-		R85Y0mScilhWH0dWDjIOBWuvai8=
+		HZmH/Af2Mksf3U6I7/fboBwo8gc=
 		</data>
 		<key>Headers/DataBaseClasses.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/QWeather.h</key>
 		<data>
-		mxza7RJYmOq2gliDYL9hO2raRQQ=
+		/jPeVsq92sXx8jJ40KJdMILEjL4=
 		</data>
 		<key>Headers/QWeatherBaseModel.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/WarningBaseClass.h</key>
 		<data>
-		EA59ybAyqeQKSpAWiTMlHOB5X24=
+		W4KUguAZQBDGd1d7MaB9YK+G9sM=
 		</data>
 		<key>Headers/WarningListClass.h</key>
 		<data>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R85Y0mScilhWH0dWDjIOBWuvai8=
+			HZmH/Af2Mksf3U6I7/fboBwo8gc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vtdfk9z6nV8wZOIw+DMm+N/JHtXddGLNmEJm8FkKFi8=
+			WZ4gE706dI4QeV74PfPsTYcyiJemLyLYj1FTC61D9s4=
 			</data>
 		</dict>
 		<key>Headers/DataBaseClasses.h</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mxza7RJYmOq2gliDYL9hO2raRQQ=
+			/jPeVsq92sXx8jJ40KJdMILEjL4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fOEvrv/apNqQoKZKCd3Ae6JGfXRFsjL4F7Bjtg4TtB0=
+			WRZQPUu2IziqnvHAyCs+CDhY6UQHB9Yib/V9gToUiOU=
 			</data>
 		</dict>
 		<key>Headers/QWeatherBaseModel.h</key>
@@ -326,11 +326,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EA59ybAyqeQKSpAWiTMlHOB5X24=
+			W4KUguAZQBDGd1d7MaB9YK+G9sM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MhAgd5RXnzlE2LTJkkMXmlonImCpdYFHOqkI18uG2w0=
+			rW/xcQU7pg4xEyXtfIo7eFnnPIba7sypdlVj2v/igJo=
 			</data>
 		</dict>
 		<key>Headers/WarningListClass.h</key>

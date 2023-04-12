@@ -26,4 +26,8 @@
 @property (nonatomic, copy) NSString *sender;
 @property (nonatomic, copy) NSString *typeName;
 @property (nonatomic, copy) NSString *related;
+@property (nonatomic, copy) NSString *urgency;
+@property (nonatomic, copy) NSString *certainty;
+@property (nonatomic, copy) NSString *severity;
+@property (nonatomic, copy) NSString *severityColor;
 @end
