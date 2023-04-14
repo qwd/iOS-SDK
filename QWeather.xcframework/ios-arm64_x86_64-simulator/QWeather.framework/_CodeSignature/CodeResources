@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/QWeather.h</key>
 		<data>
-		/jPeVsq92sXx8jJ40KJdMILEjL4=
+		Ghw78l+OKEYU+M2LTSnVVs2yo1M=
 		</data>
 		<key>Headers/QWeatherBaseModel.h</key>
 		<data>
@@ -94,15 +94,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SAb3ulcj8EQUkV3E2lwT2tKoTG8=
+		Fn/XRZhWSlmDsh3E6gr5R0PYCAE=
 		</data>
 		<key>Modules/QWeather.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		LDsNgbORNzr9t0zeHxjkCeg8O8Y=
+		SCiCsUig3ODRwTXpfsPn+CVq1lM=
 		</data>
 		<key>Modules/QWeather.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		jinl772o4oguCNKK7kT59Rw5iXE=
+		CVgSGjjHqXapigRzi+rx4V9gkME=
 		</data>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		06RNWMkFSTCka3WUgqecl0gVai4=
+		wApBL7YEJ84PBUshLh9sOESk6uI=
 		</data>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V/h5m6UuHOuN6Mk8q7LULBz8gTs=
+		nhuaMlggb1zTS729J2L5nYDSth4=
 		</data>
 		<key>Modules/QWeather.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Modules/QWeather.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kbSrJmkKf5o+NsjTBdFR7GxtMUs=
+		IOD8wxTa4tet43h1cUz3dKP4KTk=
 		</data>
 		<key>Modules/QWeather.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FGpAFxS2MUBDdrXyuG2Vk18pH98=
+		hvdYfhQ+WElVBpDgFOZ14jTz9u4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/jPeVsq92sXx8jJ40KJdMILEjL4=
+			Ghw78l+OKEYU+M2LTSnVVs2yo1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			WRZQPUu2IziqnvHAyCs+CDhY6UQHB9Yib/V9gToUiOU=
+			Hki6mWBXOw26BOz27oRLc32ycHn5gw4umx3eyhl403Q=
 			</data>
 		</dict>
 		<key>Headers/QWeatherBaseModel.h</key>
@@ -381,22 +381,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LDsNgbORNzr9t0zeHxjkCeg8O8Y=
+			SCiCsUig3ODRwTXpfsPn+CVq1lM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9t7Re7lDPKpelzD7AWF86+R5dhUljIezRXqziPmf6Es=
+			gwjGOZYJzK8e4qwJGayo0gxOc0+wQ/QV+HPOL8zT8Ic=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jinl772o4oguCNKK7kT59Rw5iXE=
+			CVgSGjjHqXapigRzi+rx4V9gkME=
 			</data>
 			<key>hash2</key>
 			<data>
-			vxVxeNoyVBpVvJvOBpRQJLHCVVSM2YqsqDrhszPKeok=
+			IIRc0PEfrFIHpC+hXUcsSKzwqJ/kyoyqjZesRpxnpcQ=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -414,22 +414,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			06RNWMkFSTCka3WUgqecl0gVai4=
+			wApBL7YEJ84PBUshLh9sOESk6uI=
 			</data>
 			<key>hash2</key>
 			<data>
-			C3sbOHmX3cgyKiyxErv90soOfBhrpZD6/uIHXwT+uJk=
+			vudvWkbIlc8EdQ8iFhpQ9hMNczQxFqLrSWelJe5PTFA=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V/h5m6UuHOuN6Mk8q7LULBz8gTs=
+			nhuaMlggb1zTS729J2L5nYDSth4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+2vvX7MXskTHTLryVr8bLvacnY7Vxhr4l6wH15K9ZKw=
+			BvzT5F3rveyvb0xmVmw2UiDRZ0oxZMuKg11c1uZecM0=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -447,22 +447,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kbSrJmkKf5o+NsjTBdFR7GxtMUs=
+			IOD8wxTa4tet43h1cUz3dKP4KTk=
 			</data>
 			<key>hash2</key>
 			<data>
-			58kIpOBY9oU5HbV8spI19X7zsP525fcEP3hODcImI2c=
+			av6xk9OhVZ4Vw+2c2tjjkvXeVIlpjoMwv+E1VrFjpGY=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FGpAFxS2MUBDdrXyuG2Vk18pH98=
+			hvdYfhQ+WElVBpDgFOZ14jTz9u4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PED1YjvpJF1Z0LkpWj3HiGSUiJZmmPlaMdbWbaJ7/IM=
+			w8PRi0DzrbUlcJ5Z+F5sPvjqVl5USnIiQFXiGllEbjI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

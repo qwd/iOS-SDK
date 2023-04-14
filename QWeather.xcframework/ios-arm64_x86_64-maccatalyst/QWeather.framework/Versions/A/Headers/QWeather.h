@@ -17,7 +17,7 @@ FOUNDATION_EXPORT const unsigned char QWeatherVersionString[];
 //  #import "QWeather.h"
 
 
-/* 当前版本 2023-04-12 4.12 */
+/* 当前版本 2023-04-14 4.13 */
 
 /**
  * 写在前面的（废）话
