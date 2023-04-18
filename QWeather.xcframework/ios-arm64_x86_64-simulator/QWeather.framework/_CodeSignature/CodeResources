@@ -28,10 +28,6 @@
 		<data>
 		GeLDFgQE5HYgy+5j/4HjtlDDPSI=
 		</data>
-		<key>Headers/NSObject+HeFengModel.h</key>
-		<data>
-		HaMyTF+998uHZBm9GpcIovkyeKk=
-		</data>
 		<key>Headers/OceanCurrentsBaseClass.h</key>
 		<data>
 		jLn0IygYnEb8tlPQOdtpwQdSir4=
@@ -42,7 +38,7 @@
 		</data>
 		<key>Headers/QWeather.h</key>
 		<data>
-		Ghw78l+OKEYU+M2LTSnVVs2yo1M=
+		8eO8g5Lxix8eF683qJ/SBVmdVPY=
 		</data>
 		<key>Headers/QWeatherBaseModel.h</key>
 		<data>
@@ -98,11 +94,11 @@
 		</data>
 		<key>Modules/QWeather.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		SCiCsUig3ODRwTXpfsPn+CVq1lM=
+		L7Dwc3uXcFsakFa+OHCbGX4xTWg=
 		</data>
 		<key>Modules/QWeather.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		CVgSGjjHqXapigRzi+rx4V9gkME=
+		BdRM0cui/haVI9MaOUHzGk3mMv8=
 		</data>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -201,17 +197,6 @@
 			KDj6LzIjFXZPJX/+++0HYeDc1kGOrhw4M6udr3fAIRo=
 			</data>
 		</dict>
-		<key>Headers/NSObject+HeFengModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HaMyTF+998uHZBm9GpcIovkyeKk=
-			</data>
-			<key>hash2</key>
-			<data>
-			DPpQzIncKXnc0d+U0Jb8f9A68j7+2hYNemSCurxZ1nY=
-			</data>
-		</dict>
 		<key>Headers/OceanCurrentsBaseClass.h</key>
 		<dict>
 			<key>hash</key>
@@ -238,11 +223,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ghw78l+OKEYU+M2LTSnVVs2yo1M=
+			8eO8g5Lxix8eF683qJ/SBVmdVPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hki6mWBXOw26BOz27oRLc32ycHn5gw4umx3eyhl403Q=
+			A/jY/nR962tDSHNIWi3RJlm0nd+uW6Oa/6wWob2gUD0=
 			</data>
 		</dict>
 		<key>Headers/QWeatherBaseModel.h</key>
@@ -381,22 +366,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SCiCsUig3ODRwTXpfsPn+CVq1lM=
+			L7Dwc3uXcFsakFa+OHCbGX4xTWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gwjGOZYJzK8e4qwJGayo0gxOc0+wQ/QV+HPOL8zT8Ic=
+			pVtmho9UbylA6HQ5R4ezif/8TmRwLIsq+G4B9U0McYo=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CVgSGjjHqXapigRzi+rx4V9gkME=
+			BdRM0cui/haVI9MaOUHzGk3mMv8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IIRc0PEfrFIHpC+hXUcsSKzwqJ/kyoyqjZesRpxnpcQ=
+			Mvu5DDy/cmWKCf4PyiSFrOkprwqCcGBIu5TPs+VqsQk=
 			</data>
 		</dict>
 		<key>Modules/QWeather.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
