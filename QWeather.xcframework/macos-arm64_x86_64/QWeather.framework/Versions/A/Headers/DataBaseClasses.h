@@ -8,22 +8,22 @@
 
 #ifndef DataBaseClasses_h
 #define DataBaseClasses_h
-#import "QWeatherBaseModel.h"
-#import "AirBaseClass.h"
-#import "WarningBaseClass.h"
-#import "WarningListClass.h"
-#import "GeoBaseClass.h"
-#import "WeatherMinutelyBaseClass.h"
-#import "WeatherHistoricalBaseClass.h"
-#import "IndicesBaseClass.h"
-#import "WeatherBaseClass.h"
-#import "SunBaseModel.h"
-#import "MoonBaseModel.h"
-#import "SunAngleBaseModel.h"
-#import "OceanTideBaseClass.h"
-#import "OceanCurrentsBaseClass.h"
-#import "StormListBaseClass.h"
-#import "StormNowTrackBaseClass.h"
-#import "StormForecastBaseClass.h"
+#import <QWeather/QWeatherBaseModel.h>
+#import <QWeather/AirBaseClass.h>
+#import <QWeather/WarningBaseClass.h>
+#import <QWeather/WarningListClass.h>
+#import <QWeather/GeoBaseClass.h>
+#import <QWeather/WeatherMinutelyBaseClass.h>
+#import <QWeather/WeatherHistoricalBaseClass.h>
+#import <QWeather/IndicesBaseClass.h>
+#import <QWeather/WeatherBaseClass.h>
+#import <QWeather/SunBaseModel.h>
+#import <QWeather/MoonBaseModel.h>
+#import <QWeather/SunAngleBaseModel.h>
+#import <QWeather/OceanTideBaseClass.h>
+#import <QWeather/OceanCurrentsBaseClass.h>
+#import <QWeather/StormListBaseClass.h>
+#import <QWeather/StormNowTrackBaseClass.h>
+#import <QWeather/StormForecastBaseClass.h>
 
 #endif /* DataBaseClasses_h */

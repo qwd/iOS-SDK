@@ -2,7 +2,7 @@
 //Created by QWeather on 18/07/27.
 //常规天气数据集合
 
-#import "QWeatherBaseModel.h"
+#import <QWeather/QWeather.h>
 
 @class Daily,Now,Hourly,Refer;
 @interface WeatherBaseClass : QWeatherBaseModel

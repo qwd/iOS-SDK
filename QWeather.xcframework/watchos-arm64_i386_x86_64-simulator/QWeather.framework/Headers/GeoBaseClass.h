@@ -2,7 +2,7 @@
 //Created by QWeather on 18/07/28.
 //城市查询
 
-#import "QWeatherBaseModel.h"
+#import <QWeather/QWeather.h>
 
 @class Refer,Location;
 @interface GeoBaseClass : QWeatherBaseModel

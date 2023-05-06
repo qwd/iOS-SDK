@@ -2,7 +2,7 @@
 //Created by QWeather on 18/07/27.
 //历史数据
 
-#import "QWeatherBaseModel.h"
+#import <QWeather/QWeather.h>
 
 @class HistoricalWeatherDaily,HistoricalWeatherHourly,HistoricalAirHourly,Refer;
 @interface WeatherHistoricalBaseClass : QWeatherBaseModel

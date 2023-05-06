@@ -6,7 +6,9 @@
 //  Copyright © 2021 Song. All rights reserved.
 //
 
-#import "QWeather.h"
+
+#import <QWeather/QWeather.h>
+
 
 NS_ASSUME_NONNULL_BEGIN
 @class StormNow,Track,WindRadius,Refer;

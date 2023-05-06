@@ -2,7 +2,7 @@
 //Created by QWeather on 18/07/27.
 //生活指数
 
-#import "QWeatherBaseModel.h"
+#import <QWeather/QWeather.h>
 
 @class IndicesDaily,IndicesNow,Refer;
 @interface IndicesBaseClass : QWeatherBaseModel

@@ -2,7 +2,7 @@
 //Created by QWeather on 18/07/27.
 //分钟级降雨（邻近预报）
 
-#import "QWeatherBaseModel.h"
+#import <QWeather/QWeather.h>
 
 @class Minutely,Refer;
 @interface WeatherMinutelyBaseClass : QWeatherBaseModel

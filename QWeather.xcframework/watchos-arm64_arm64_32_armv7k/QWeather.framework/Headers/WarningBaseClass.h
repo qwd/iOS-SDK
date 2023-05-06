@@ -2,7 +2,8 @@
 //Created by QWeather on 18/07/28.
 //天气灾害预警
 
-#import "QWeatherBaseModel.h"
+
+#import <QWeather/QWeather.h>
 
 @class Warning,Refer;
 @interface WarningBaseClass : QWeatherBaseModel

@@ -16,8 +16,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // TODO: add your 'publicID' and 'appKey'
-    QWeatherConfigInstance.publicID = @"HE2304071906591863";
-    QWeatherConfigInstance.appKey   = @"579a411670534affa31a2cb9dac00131";
+    QWeatherConfigInstance.publicID = @"xxx";
+    QWeatherConfigInstance.appKey   = @"xxx";
     QWeatherConfigInstance.lang     = @"zh";
     QWeatherConfigInstance.unit     = @"m";
     QWeatherConfigInstance.appType  = APP_TYPE_BIZ;

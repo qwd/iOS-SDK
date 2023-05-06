@@ -17,14 +17,11 @@ FOUNDATION_EXPORT const unsigned char QWeatherVersionString[];
 //  #import "QWeather.h"
 
 
-/* 当前版本 2023-04-18 4.13 */
+/* 当前版本 2023-05-05 4.14 */
 
 /**
  * 写在前面的（废）话
  *
- * 此项目中用到了 Alamofire 进行网络请求
- *
- * 使用时请确保你的项目中有 Alamofire（5.6.4+）
  */
 /**
  * sdk需要开启定位权限，请在工程plist.info文件中添加NSLocationWhenInUseUsageDescription
@@ -35,5 +32,5 @@ FOUNDATION_EXPORT const unsigned char QWeatherVersionString[];
  * 其他内容这里不做赘述，祝你写 BUG 愉快
  */
 
-#import "AllWeatherInquieirs.h"
-#import "DataBaseClasses.h"
+#import <QWeather/AllWeatherInquieirs.h>
+#import <QWeather/DataBaseClasses.h>

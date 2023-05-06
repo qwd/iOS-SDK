@@ -1,7 +1,8 @@
 //
 //Created by QWeather on 18/07/27.
 //空气质量数据集合
-#import "QWeatherBaseModel.h"
+
+#import <QWeather/QWeather.h>
 
 @class AirDaily,AirHourly,AirNow,AirStation,Refer;
 @interface AirBaseClass : QWeatherBaseModel

@@ -6,7 +6,9 @@
 //  Copyright © 2020 Song. All rights reserved.
 //
 
-#import "QWeatherBaseModel.h"
+
+#import <QWeather/QWeather.h>
+
 @class WarningLoc,Refer;
 
 @interface WarningListClass : QWeatherBaseModel
