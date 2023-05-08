@@ -56,7 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		01828768F5FB33497DAC7320 /* Pods-Long.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Long.debug.xcconfig"; path = "Target Support Files/Pods-Long/Pods-Long.debug.xcconfig"; sourceTree = "<group>"; };
 		021449E629EE6C9700421E24 /* QWeather.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = QWeather.xcframework; sourceTree = "<group>"; };
 		0286F91729E98BF8005B6263 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
 		029FA9A2292C71F40032461E /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +81,7 @@
 		029FAA01292C75440032461E /* Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_macOS.entitlements; sourceTree = "<group>"; };
 		029FAA05292C77000032461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		02C2CDDE29E99E5F0005E383 /* Example-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		02C4C4E62A065E11005E5AF8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		02EFF67429E3E8FC00025604 /* Example-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EFF67629E3E8FC00025604 /* watchkitappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchkitappApp.swift; sourceTree = "<group>"; };
 		02EFF67829E3E8FC00025604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,7 +89,6 @@
 		02EFF67D29E3E8FD00025604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02EFF68629E3FA0700025604 /* Example-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Example-iOS.entitlements"; sourceTree = "<group>"; };
 		02EFF68829E3FBC900025604 /* QHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHelper.swift; sourceTree = "<group>"; };
-		1360D32090620FE3358705E7 /* Pods-Long.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Long.release.xcconfig"; path = "Target Support Files/Pods-Long/Pods-Long.release.xcconfig"; sourceTree = "<group>"; };
 		285B0125FD67667681617713 /* Pods-Example-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-macOS.release.xcconfig"; path = "Target Support Files/Pods-Example-macOS/Pods-Example-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		37F28B1D9E36CB8FD0E3C869 /* Pods-Example-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Example-iOS/Pods-Example-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		46CE9C24D4056723E523EF35 /* libPods-Example-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +211,7 @@
 		1F7E79E1D814BCAF040222CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				02C4C4E62A065E11005E5AF8 /* Cocoa.framework */,
 				021449E629EE6C9700421E24 /* QWeather.xcframework */,
 				0286F91729E98BF8005B6263 /* SwiftUI.framework */,
 				46CE9C24D4056723E523EF35 /* libPods-Example-iOS.a */,
@@ -231,8 +231,6 @@
 				285B0125FD67667681617713 /* Pods-Example-macOS.release.xcconfig */,
 				969D3E1F16414BB8237F1133 /* Pods-Example-watchOS.debug.xcconfig */,
 				B16171452DA451D637C9E89C /* Pods-Example-watchOS.release.xcconfig */,
-				01828768F5FB33497DAC7320 /* Pods-Long.debug.xcconfig */,
-				1360D32090620FE3358705E7 /* Pods-Long.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
