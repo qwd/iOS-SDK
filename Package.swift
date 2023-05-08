@@ -22,5 +22,3 @@ let package = Package(
         )
     ]
 )
-
-

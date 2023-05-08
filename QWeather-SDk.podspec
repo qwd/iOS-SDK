@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.summary      = "和风天气官方SDK"
   s.description  = "支持iOS真机和模拟器，支持macOS"
   s.homepage     = "https://github.com/qwd/iOS-SDK"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = { "韩笑白" => "hanxiaobai@qweather.com" }
+  s.license      = { :type => "MIT", :file => "LICENSE.txt" }
+  s.author       = { "xiaobai" => "hanxiaobai@qweather.com" }
   s.ios.deployment_target = "11.0"
   s.osx.deployment_target = "10.15"
   s.watchos.deployment_target = "4.0"
