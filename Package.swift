@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "QWeather",
-            url: "https://a.hecdn.net/download/api_sdk/QWeather_iOS_SDK_Pub_V4.14.zip",
-            checksum: "800aa14c68f95d4aaaa2a6c04fa53873b8b5c34f98680e40240df9ac942160a5"
+            url: "https://a.hecdn.net/download/api_sdk/QWeather_iOS_SDK_Pub_V4.16.zip",
+            checksum: "057bb21a21872d2ed43532606c489377f0fb0e49e120cba8e541aafc91e41293"
         )
     ]
 )

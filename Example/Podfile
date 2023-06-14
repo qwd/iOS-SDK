@@ -1,6 +1,6 @@
 
 def share_pods
-#  pod 'QWeather-SDK', '4.14'
+#  pod 'QWeather-SDK'
   pod 'QWeather-SDK', :path => '../'
 #  pod 'QWeather-SDK', :git => 'https://github.com/qwd/iOS-SDK.git', :tag => '4.14'
 end
