@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/QWeather.h</key>
 		<data>
-		y45W9nNL7OYBaIrhgKKcdQm0n+k=
+		QVgDhlz6IjOzGSgzBdp/xrVkSDY=
 		</data>
 		<key>Headers/QWeatherBaseModel.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DH+a3vFtmZiyGCGpKW09N835fjI=
+		mu4/PxrVwpVveTsff43OKfpBkLE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -187,11 +187,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y45W9nNL7OYBaIrhgKKcdQm0n+k=
+			QVgDhlz6IjOzGSgzBdp/xrVkSDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RYJMs43iBQqQb43EHLbAwKYKcmO33TLJ37+KThPNGqA=
+			KIeqDLgROT/OjJ0btMLORpCAEAX3Ajs+3EquENFZcR4=
 			</data>
 		</dict>
 		<key>Headers/QWeatherBaseModel.h</key>

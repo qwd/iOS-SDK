@@ -21,7 +21,7 @@
     QWeatherConfigInstance.lang     = @"zh";
     QWeatherConfigInstance.unit     = @"m";
     QWeatherConfigInstance.appType  = APP_TYPE_BIZ;
-    [self HISTORICAL_AIR];
+    [self WEATHER_3D];
     return YES;
 }
 
