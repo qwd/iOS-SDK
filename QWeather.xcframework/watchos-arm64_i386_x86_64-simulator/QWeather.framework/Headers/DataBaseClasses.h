@@ -10,6 +10,7 @@
 #define DataBaseClasses_h
 #import <QWeather/QWeatherBaseModel.h>
 #import <QWeather/AirBaseClass.h>
+#import <QWeather/AirqualityBaseClass.h>
 #import <QWeather/WarningBaseClass.h>
 #import <QWeather/WarningListClass.h>
 #import <QWeather/GeoBaseClass.h>

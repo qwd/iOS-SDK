@@ -8,13 +8,17 @@
 		<data>
 		bi2UmzdjsfMlA2SJS1ThWsCzrq0=
 		</data>
+		<key>Headers/AirqualityBaseClass.h</key>
+		<data>
+		QFOY93wYEL9HPqc1z54KItKG03A=
+		</data>
 		<key>Headers/AllWeatherInquieirs.h</key>
 		<data>
-		HZmH/Af2Mksf3U6I7/fboBwo8gc=
+		oGjNPDLuyZyqjQNOHyGbr5oTgZU=
 		</data>
 		<key>Headers/DataBaseClasses.h</key>
 		<data>
-		Norp48dqgNn9tvMgyM5rLzFw77A=
+		D4YLq6ukZNAMbft+kvwL08Y/kSI=
 		</data>
 		<key>Headers/GeoBaseClass.h</key>
 		<data>
@@ -86,11 +90,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mu4/PxrVwpVveTsff43OKfpBkLE=
+		YoaKjLwdPOUXWsevp7lS7HhN7Dw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		F5XxMgNEY4wy4UfDJkQUlZM4UhQ=
+		3OsI3O6goO94vPECTSXGLR8DQWA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -106,26 +110,37 @@
 			5qn0M/7PPbV9w03rBppD8WAggFbdC7p2C7gLuBEGDuI=
 			</data>
 		</dict>
+		<key>Headers/AirqualityBaseClass.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QFOY93wYEL9HPqc1z54KItKG03A=
+			</data>
+			<key>hash2</key>
+			<data>
+			dUFbcCSr0BDnrwMYOFo/of4CeF3uF+5T/LogjLRiPrI=
+			</data>
+		</dict>
 		<key>Headers/AllWeatherInquieirs.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HZmH/Af2Mksf3U6I7/fboBwo8gc=
+			oGjNPDLuyZyqjQNOHyGbr5oTgZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			WZ4gE706dI4QeV74PfPsTYcyiJemLyLYj1FTC61D9s4=
+			8Afpy7bJCrH0cBAMqauUgu9YNHW7SYI/7PweXMw2fDM=
 			</data>
 		</dict>
 		<key>Headers/DataBaseClasses.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Norp48dqgNn9tvMgyM5rLzFw77A=
+			D4YLq6ukZNAMbft+kvwL08Y/kSI=
 			</data>
 			<key>hash2</key>
 			<data>
-			E132KBDZmsuBvAP1Dx4NeCykPeHZgdD+rX0XDcvuuio=
+			61M3pwN0bMmnQTbU1WLAv1Q8qBHfxn5l/Qts9pOzxm4=
 			</data>
 		</dict>
 		<key>Headers/GeoBaseClass.h</key>
@@ -319,11 +334,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F5XxMgNEY4wy4UfDJkQUlZM4UhQ=
+			3OsI3O6goO94vPECTSXGLR8DQWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			n3vhlnny1lx/rKLGTvLZdw1CYJQcxkODa8KRuRKYrqw=
+			Va7YCF4HhnmpqjqV5U/4TcZCWbVSCNEEkh1By/aS57w=
 			</data>
 		</dict>
 	</dict>

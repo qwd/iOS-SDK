@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
     name: "QWeather-SDK",
     platforms: [
-        .iOS(.v11),
-        .macOS(.v10_15),
+        .iOS(.v12),
+        .macOS(.v11),
         .watchOS(.v4),
     ],
     products: [
@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "QWeather",
-            url: "https://a.hecdn.net/download/api_sdk/QWeather_iOS_SDK_Pub_V4.17.zip",
-            checksum: "cdc311840049ee9ae3e69c9b343253def4af11865da0a5f32d34dd8969bd075c"
+            url: "https://a.hecdn.net/download/api_sdk/QWeather_iOS_SDK_Pub_V4.20.zip",
+            checksum: "007db4a13ec45b7dba2a4bbd50fab30af4210d9af1e3bab97126b55fb485b709"
         )
     ]
 )
