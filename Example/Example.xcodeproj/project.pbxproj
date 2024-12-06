@@ -20,18 +20,32 @@
 		029FA9FB292C75440032461E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9FA292C75440032461E /* Assets.xcassets */; };
 		029FA9FE292C75440032461E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029FA9FC292C75440032461E /* Main.storyboard */; };
 		029FAA00292C75440032461E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029FA9FF292C75440032461E /* main.m */; };
+		02A0B3642B872DB600E628BD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A0B3632B872DB600E628BD /* WidgetKit.framework */; };
+		02A0B3652B872DB600E628BD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0286F91729E98BF8005B6263 /* SwiftUI.framework */; };
+		02A0B3682B872DB600E628BD /* widgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B3672B872DB600E628BD /* widgetBundle.swift */; };
+		02A0B36A2B872DB600E628BD /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A0B3692B872DB600E628BD /* widget.swift */; };
+		02A0B36C2B872DB700E628BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A0B36B2B872DB700E628BD /* Assets.xcassets */; };
+		02A0B3702B872DB700E628BD /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 02A0B3622B872DB600E628BD /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		02EFF67729E3E8FC00025604 /* watchkitappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EFF67629E3E8FC00025604 /* watchkitappApp.swift */; };
 		02EFF67929E3E8FC00025604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EFF67829E3E8FC00025604 /* ContentView.swift */; };
 		02EFF67B29E3E8FD00025604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EFF67A29E3E8FD00025604 /* Assets.xcassets */; };
 		02EFF67E29E3E8FD00025604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02EFF67D29E3E8FD00025604 /* Preview Assets.xcassets */; };
 		02EFF68129E3E8FD00025604 /* Example-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 02EFF67429E3E8FC00025604 /* Example-watchOS.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		02EFF68929E3FBC900025604 /* QHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EFF68829E3FBC900025604 /* QHelper.swift */; };
+		0B511DC84C2CD152EE525B02 /* libPods-widgetExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5DDE0E63B04D8A1C4277A4 /* libPods-widgetExtension.a */; };
 		D6F064CB6B36C72E9D9C5268 /* libPods-Example-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CE9C24D4056723E523EF35 /* libPods-Example-iOS.a */; };
 		DEB5884EF1CC56EBBADB8A4F /* libPods-Example-macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B4638BCEDEBF04670A1F41 /* libPods-Example-macOS.a */; };
 		F3620B24D4AC39282E8A4B3C /* libPods-Example-watchOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47711453BA2A2901E1D4F297 /* libPods-Example-watchOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		02A0B36E2B872DB700E628BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029FA99A292C71F40032461E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A0B3612B872DB600E628BD;
+			remoteInfo = widgetExtension;
+		};
 		02EFF67F29E3E8FD00025604 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 029FA99A292C71F40032461E /* Project object */;
@@ -42,6 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		02A0B3722B872DB700E628BD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				02A0B3702B872DB700E628BD /* widgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02EFF68229E3E8FD00025604 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,6 +105,13 @@
 		029FA9FF292C75440032461E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		029FAA01292C75440032461E /* Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_macOS.entitlements; sourceTree = "<group>"; };
 		029FAA05292C77000032461E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		02A0B3622B872DB600E628BD /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A0B3632B872DB600E628BD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		02A0B3672B872DB600E628BD /* widgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetBundle.swift; sourceTree = "<group>"; };
+		02A0B3692B872DB600E628BD /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		02A0B36B2B872DB700E628BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02A0B36D2B872DB700E628BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A0B3712B872DB700E628BD /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
 		02C2CDDE29E99E5F0005E383 /* Example-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		02C4C4E62A065E11005E5AF8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		02EFF67429E3E8FC00025604 /* Example-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,8 +121,10 @@
 		02EFF67D29E3E8FD00025604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02EFF68629E3FA0700025604 /* Example-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Example-iOS.entitlements"; sourceTree = "<group>"; };
 		02EFF68829E3FBC900025604 /* QHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QHelper.swift; sourceTree = "<group>"; };
+		19A5106C244E1C08AF2CB207 /* Pods-widgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-widgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-widgetExtension/Pods-widgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		285B0125FD67667681617713 /* Pods-Example-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-macOS.release.xcconfig"; path = "Target Support Files/Pods-Example-macOS/Pods-Example-macOS.release.xcconfig"; sourceTree = "<group>"; };
 		37F28B1D9E36CB8FD0E3C869 /* Pods-Example-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Example-iOS/Pods-Example-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5DDE0E63B04D8A1C4277A4 /* libPods-widgetExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-widgetExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CE9C24D4056723E523EF35 /* libPods-Example-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47711453BA2A2901E1D4F297 /* libPods-Example-watchOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-watchOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A918E56E4D6F13A1273C941 /* libPods-Long.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Long.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +133,7 @@
 		969D3E1F16414BB8237F1133 /* Pods-Example-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-Example-watchOS/Pods-Example-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B16171452DA451D637C9E89C /* Pods-Example-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-watchOS.release.xcconfig"; path = "Target Support Files/Pods-Example-watchOS/Pods-Example-watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		E35BEA215190BEC8D4F27674 /* Pods-Example-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example-iOS.release.xcconfig"; path = "Target Support Files/Pods-Example-iOS/Pods-Example-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E70A6D24CC52837F96D6E811 /* Pods-widgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-widgetExtension.release.xcconfig"; path = "Target Support Files/Pods-widgetExtension/Pods-widgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +154,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02A0B35F2B872DB600E628BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A0B3652B872DB600E628BD /* SwiftUI.framework in Frameworks */,
+				02A0B3642B872DB600E628BD /* WidgetKit.framework in Frameworks */,
+				0B511DC84C2CD152EE525B02 /* libPods-widgetExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02EFF67129E3E8FC00025604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,9 +178,11 @@
 		029FA999292C71F40032461E = {
 			isa = PBXGroup;
 			children = (
+				02A0B3712B872DB700E628BD /* widgetExtension.entitlements */,
 				029FA9A4292C71F40032461E /* Example */,
 				029FA9F3292C75430032461E /* Example-macOS */,
 				02EFF67529E3E8FC00025604 /* watchkitapp Watch App */,
+				02A0B3662B872DB600E628BD /* widget */,
 				029FA9A3292C71F40032461E /* Products */,
 				5BA1A907FD0445C4520F1736 /* Pods */,
 				1F7E79E1D814BCAF040222CC /* Frameworks */,
@@ -148,6 +195,7 @@
 				029FA9A2292C71F40032461E /* Example-iOS.app */,
 				029FA9F2292C75430032461E /* Example-macOS.app */,
 				02EFF67429E3E8FC00025604 /* Example-watchOS.app */,
+				02A0B3622B872DB600E628BD /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +236,17 @@
 			path = "Example-macOS";
 			sourceTree = "<group>";
 		};
+		02A0B3662B872DB600E628BD /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				02A0B3672B872DB600E628BD /* widgetBundle.swift */,
+				02A0B3692B872DB600E628BD /* widget.swift */,
+				02A0B36B2B872DB700E628BD /* Assets.xcassets */,
+				02A0B36D2B872DB700E628BD /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
 		02EFF67529E3E8FC00025604 /* watchkitapp Watch App */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +277,8 @@
 				75B4638BCEDEBF04670A1F41 /* libPods-Example-macOS.a */,
 				47711453BA2A2901E1D4F297 /* libPods-Example-watchOS.a */,
 				4A918E56E4D6F13A1273C941 /* libPods-Long.a */,
+				02A0B3632B872DB600E628BD /* WidgetKit.framework */,
+				3C5DDE0E63B04D8A1C4277A4 /* libPods-widgetExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +292,8 @@
 				285B0125FD67667681617713 /* Pods-Example-macOS.release.xcconfig */,
 				969D3E1F16414BB8237F1133 /* Pods-Example-watchOS.debug.xcconfig */,
 				B16171452DA451D637C9E89C /* Pods-Example-watchOS.release.xcconfig */,
+				19A5106C244E1C08AF2CB207 /* Pods-widgetExtension.debug.xcconfig */,
+				E70A6D24CC52837F96D6E811 /* Pods-widgetExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -247,11 +310,13 @@
 				029FA99F292C71F40032461E /* Frameworks */,
 				029FA9A0292C71F40032461E /* Resources */,
 				02EFF68229E3E8FD00025604 /* Embed Watch Content */,
+				02A0B3722B872DB700E628BD /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				02EFF68029E3E8FD00025604 /* PBXTargetDependency */,
+				02A0B36F2B872DB700E628BD /* PBXTargetDependency */,
 			);
 			name = "Example-iOS";
 			productName = Exemple;
@@ -275,6 +340,24 @@
 			productName = "Exemple-macOS";
 			productReference = 029FA9F2292C75430032461E /* Example-macOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		02A0B3612B872DB600E628BD /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A0B3752B872DB700E628BD /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				DA8506DF2B340A2119EB35AF /* [CP] Check Pods Manifest.lock */,
+				02A0B35E2B872DB600E628BD /* Sources */,
+				02A0B35F2B872DB600E628BD /* Frameworks */,
+				02A0B3602B872DB600E628BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = 02A0B3622B872DB600E628BD /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		02EFF67329E3E8FC00025604 /* Example-watchOS */ = {
 			isa = PBXNativeTarget;
@@ -301,7 +384,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					029FA9A1292C71F40032461E = {
@@ -310,6 +393,9 @@
 					};
 					029FA9F1292C75430032461E = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					02A0B3612B872DB600E628BD = {
+						CreatedOnToolsVersion = 15.2;
 					};
 					02EFF67329E3E8FC00025604 = {
 						CreatedOnToolsVersion = 14.3;
@@ -332,6 +418,7 @@
 				029FA9A1292C71F40032461E /* Example-iOS */,
 				029FA9F1292C75430032461E /* Example-macOS */,
 				02EFF67329E3E8FC00025604 /* Example-watchOS */,
+				02A0B3612B872DB600E628BD /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -353,6 +440,14 @@
 			files = (
 				029FA9FB292C75440032461E /* Assets.xcassets in Resources */,
 				029FA9FE292C75440032461E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02A0B3602B872DB600E628BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A0B36C2B872DB700E628BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +529,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA8506DF2B340A2119EB35AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-widgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -458,6 +575,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02A0B35E2B872DB600E628BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A0B3682B872DB600E628BD /* widgetBundle.swift in Sources */,
+				02A0B36A2B872DB600E628BD /* widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02EFF67029E3E8FC00025604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +597,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		02A0B36F2B872DB700E628BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02A0B3612B872DB600E628BD /* widgetExtension */;
+			targetProxy = 02A0B36E2B872DB700E628BD /* PBXContainerItemProxy */;
+		};
 		02EFF68029E3E8FD00025604 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -639,7 +770,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -649,7 +780,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.exemple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -684,7 +815,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -694,7 +825,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.exemple;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -772,6 +903,85 @@
 			};
 			name = Release;
 		};
+		02A0B3732B872DB700E628BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A5106C244E1C08AF2CB207 /* Pods-widgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp.HeWeatherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02A0B3742B872DB700E628BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70A6D24CC52837F96D6E811 /* Pods-widgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FX8JNRA3ZJ;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Provide weather services based on your location and view the weather directly on the map.";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp.HeWeatherWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		02EFF68329E3E8FD00025604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 969D3E1F16414BB8237F1133 /* Pods-Example-watchOS.debug.xcconfig */;
@@ -786,13 +996,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = watchkitapp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heweather.exemple;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heweather.weatherapp;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.exemple.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -819,13 +1029,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = watchkitapp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heweather.exemple;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.heweather.weatherapp;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.exemple.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heweather.weatherapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -864,6 +1074,15 @@
 			buildConfigurations = (
 				029FAA03292C75440032461E /* Debug */,
 				029FAA04292C75440032461E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A0B3752B872DB700E628BD /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A0B3732B872DB700E628BD /* Debug */,
+				02A0B3742B872DB700E628BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

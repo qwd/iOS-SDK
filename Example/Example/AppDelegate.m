@@ -35,6 +35,15 @@
     }];
 }
 
+-(void)WEATHER_7D{
+    QWeatherConfigInstance.location = @"101010100";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_WEATHER_7D WithSuccess:^(QWeatherBaseModel  *responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
 -(void)WEATHER_24H{
     QWeatherConfigInstance.location = @"101010100";
     [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_WEATHER_24H WithSuccess:^(QWeatherBaseModel  *responseObject) {
@@ -113,6 +122,44 @@
     }];
 }
 
+-(void)AIRQUALITY_NOW {
+    QWeatherConfigInstance.lat = @"36.12";
+    QWeatherConfigInstance.lon = @"116.39";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_AIRQUALITY_NOW WithSuccess:^(id responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+-(void)AIRQUALITY_HOURLY {
+    QWeatherConfigInstance.lat = @"36.12";
+    QWeatherConfigInstance.lon = @"116.39";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_AIRQUALITY_HOURLY WithSuccess:^(id responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+-(void)AIRQUALITY_DAILY {
+    QWeatherConfigInstance.lat = @"36.12";
+    QWeatherConfigInstance.lon = @"116.39";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_AIRQUALITY_DAILY WithSuccess:^(id responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
+
+-(void)AIRQUALITY_STATION {
+    QWeatherConfigInstance.location = @"P58911";
+    [QWeatherConfigInstance weatherWithInquireType:INQUIRE_TYPE_AIRQUALITY_STATION WithSuccess:^(id responseObject) {
+        NSLog(@"描述->%@",[responseObject description]);
+    } faileureForError:^(NSError *error) {
+        NSLog(@"error->%@",error);
+    }];
+}
 
 
 - (void)GEO_CITY_LOOKUP {
