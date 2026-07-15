@@ -1,5 +1,3 @@
-### QWeather-SDK
+本项目已关闭，请使用 [QWeather iOS SDK](https://github.com/qwd/qweather-ios-sdk)
 
-* Official Documents [Dev.QWeather](https://dev.qweather.com/en/docs/configuration/ios-sdk-config/)
-* 官方文档「[和风天气开发服务](https://dev.qweather.com/docs/configuration/ios-sdk-config/)」
-
+This project has been deprecated, use [QWeather iOS SDK](https://github.com/qwd/qweather-ios-sdk) instead.
